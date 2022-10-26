@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CSS Table</title>
+
+    
+    <style>
+         table{
+             border: 2px solid black;
+             border-collapse: collapse;
+             width: 100%;
+         }
+
+         th,td{
+             border: 2px solid black;
+             padding: 5px;
+             text-align: center;
+         }
+
+         th{
+             background-color: chocolate;
+             color: white;
+             height: 30px;
+             vertical-align: middle;
+         }
+
+         tr:hover{
+             background-color: red;
+         }
+
+         tr:nth-child(even){
+             background-color: violet;
+         }
+
+         tr:nth-child(odd){
+             background-color: gold;
+         }
+    </style>
+
+</head>
+<body>
+    <table>
+        <caption>Student Details</caption>
+
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>CGPA</th>
+            <th>Phone</th>
+            <th>Bio</th>
+        </tr>
+
+        <tr>
+            <td>101</td>
+            <td>Mishu</td>
+            <td>4.00</td>
+            <td>01756354410</td>
+            <td>Labore dolore nonumy tempor voluptua est sed kasd, amet diam justo ipsum labore aliquyam et sanctus at, sed gubergren ipsum.</td>
+
+      </tr>
+
+      <tr>
+        <td>102</td>
+        <td>Deb</td>
+        <td>4.00</td>
+        <td>01756354410</td>
+        <td>Labore dolore nonumy tempor voluptua est sed kasd, amet diam justo ipsum labore aliquyam et sanctus at, sed gubergren ipsum.</td>
+
+  </tr>
+
+  <tr>
+    <td>103</td>
+    <td>Nath</td>
+    <td>4.00</td>
+    <td>01756354410</td>
+    <td>Labore dolore nonumy tempor voluptua est sed kasd, amet diam justo ipsum labore aliquyam et sanctus at, sed gubergren ipsum.</td>
+
+</tr>
+
+<tr>
+    <td>104</td>
+    <td>Eity</td>
+    <td>4.00</td>
+    <td>01756354410</td>
+    <td>Labore dolore nonumy tempor voluptua est sed kasd, amet diam justo ipsum labore aliquyam et sanctus at, sed gubergren ipsum.</td>
+
+</tr>
+
+<tr>
+    <td>105</td>
+    <td>Mitu</td>
+    <td>4.00</td>
+    <td>01756354410</td>
+    <td>Labore dolore nonumy tempor voluptua est sed kasd, amet diam justo ipsum labore aliquyam et sanctus at, sed gubergren ipsum.</td>
+
+</tr>
+    </table>
+</body>
+</html>
